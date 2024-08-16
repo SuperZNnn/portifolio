@@ -25,7 +25,7 @@ const SobreContainer = () => {
                 </div>
                 <div className="texts">
                     <h1>Experiência</h1>
-                    <p>Freelancer<br/>2024 - Atual</p>
+                    <p>Estagiário<br/>Compass Uol<br/>08/2024 - Atual</p>
                 </div>
             </div>
             

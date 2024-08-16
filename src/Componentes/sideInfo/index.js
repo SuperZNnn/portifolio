@@ -8,7 +8,7 @@ const SideInfo = () => {
             <div className="profile-information">
                 <img className="profile-img" src="assets/profile.jpg" alt="profile"/>
                 <h1 className="profile-name">Rafael Soares</h1>
-                <p className="profile-descrip">Desenvolvedor Full-Stack</p>
+                <p className="profile-descrip">Desenvolvedor Web</p>
             </div>
             <NavigationLinks />
         </section>
