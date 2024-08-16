@@ -1,0 +1,51 @@
+.mainInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    min-height: 100vh;
+    position: relative;
+    background-color: #dedede;
+    flex-wrap: wrap;
+}
+@media (max-width: 750px){
+    .mainInfo{
+        width: 100%;
+    }
+}
+@media (min-width: 751px){
+    .mainInfo{
+        width: 50%;
+    }
+}
+
+.textArea{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.textArea .texts{
+    min-height: 30vh;
+    width: 50%;
+}
+.textArea .nothinArea{
+    height: 11vh;
+}
+
+.textArea h1{
+    width: calc((100%) - 6vh);
+    position: relative;
+    left: 3vh;
+    margin-top: 3vh;
+    font-family: "Josefin Sans", sans-serif;
+}
+.textArea p{
+    text-wrap: wrap;
+    width: calc((100%) - 6vh);
+    text-align: justify;
+    position: relative;
+    left: 3vh;
+    word-wrap: break-word;
+}

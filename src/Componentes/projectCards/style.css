@@ -1,0 +1,82 @@
+.projectCards{
+    width: 35vh;
+    
+    border: .7vh solid #2D363F;
+    border-radius: 1.5vh;
+    overflow: hidden;
+    transition: .2s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+@media (min-width: 601px){
+    .projectCards{
+        height: 48vh;
+    }
+    .projectCards:hover{
+        height: 60vh;
+    }
+}
+@media (max-width: 600px){
+    .projectCards{
+        height: 60vh;
+    }
+}
+
+.projectCards .line1{
+    width: 100%;
+    height: 20%;
+    background-color: #3c60c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectCards .line2{
+    width: 100%;
+    height: 80%;
+    background-color: #6a81c0;
+}
+
+.projectCards .line1 h1{
+    font-family: 'Playwrite DE Grund', cursive;
+    color: #fff;
+    font-size: 5vh;
+}
+
+.projectCards .line2 img{
+    width: 30vh;
+    border: .4vh solid #3c60c0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1vh;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+    border-radius: 1vh;
+}
+.projectCards .line2 p{
+    margin-top: 2vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5vh;
+    padding: 0 1vh;
+    color: #000;
+}
+
+h2.usedTecnologies{
+    margin-top: 1vh;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2D363F;
+}
+.tecnologies{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tecnologies p{
+    position: relative;
+    top: -2vh;
+    font-family: 'Ubuntu', sans-serif !important;
+    color: #000;
+}

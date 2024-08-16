@@ -1,0 +1,65 @@
+header{
+    background-color: #2D364F;
+    width: calc((100%) - 1.8vh);
+    height: 11vh;
+    border-bottom-left-radius: 6vh;
+    border-bottom-right-radius: 6vh;
+    border: 1vh solid #929292;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 3;
+    position: absolute;
+}
+
+h1.header-title{
+    font-family: "Playwrite DE Grund", cursive;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+h1.header-title:hover{
+    text-decoration: underline;
+    color: #6a81c0;
+}
+
+@media (max-width: 650px){
+    h1.header-title{
+        position: absolute;
+        z-index: -99;
+        opacity: 0;
+    }
+}
+@media (min-width: 651px){
+    h1.header-title{
+        position: relative;
+        z-index: inherit;
+        opacity: 1;
+    }
+}
+
+img.logo-img{
+    width: 10vh;
+    transition: .2s;
+    cursor: pointer;
+}
+img.logo-img:hover{
+    filter: invert(32%) sepia(26%) saturate(4102%) hue-rotate(195deg) brightness(92%) contrast(91%);
+}
+
+.icons-redirect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.icons-redirect i{
+    transition: .2s;
+    color: #fff;
+    cursor: pointer;
+}
+.icons-redirect i:hover{
+    color: #6a81c0;
+}

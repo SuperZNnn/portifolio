@@ -1,0 +1,83 @@
+.sideInfo{
+    background-color: #D0D0D0;
+    height: 100vh;
+    position: fixed;
+}
+.profile-information{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width: 750px){
+    .sideInfo{
+        position: relative;
+        width: 100%;
+    }
+    .links-sec{
+        position: fixed;
+    }
+}
+@media (min-width: 751px){
+    .sideInfo{
+        position: fixed;
+        width: 50%;
+        right: 0;
+        top: 0; 
+    }
+    .links-sec{
+        position: absolute;
+    }
+}
+
+img.profile-img{
+    width: 45vh;
+    height: 45vh;
+    border-radius: 50%;
+    border: .7vh solid #929292;
+}
+
+p.profile-descrip{
+    font-size: 3vh;
+    font-family: "Ubuntu", sans-serif;
+}
+h1.profile-name{
+    margin-top: 3vh;
+    font-size: 5vh;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.links-sec{
+    background-color: #6a81c0;
+    width: 90%;
+    height: 10vh;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border: .7vh solid #929292;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p.link-redirect{
+    font-size: 3vh;
+    font-family: "Ubuntu", sans-serif;
+    padding: 1vh;
+    border-radius: 1vh;
+    transition: .2s;
+    border: .4vh solid transparent;
+    cursor: pointer;
+    color: #000;
+}
+p.link-redirect.selected{
+    background-color: #fff;
+}
+p.link-redirect:hover{
+    border: .4vh solid #2D364F;
+}

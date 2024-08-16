@@ -1,0 +1,50 @@
+.habiCards{
+    width: 30vh;
+    height: 15vh;
+    border-radius: 1vh;
+    border: .5vh solid;
+    overflow: hidden;
+}
+
+.habiCards .line-1{
+    width: 100%;
+    height: 35%;
+}
+.habiCards .line-1 h1{
+    text-align: center;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 3vh;
+}
+.habiCards .line-2{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.habiCards .line-2 p{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.habiCards .habiBar {
+    width: 90%;
+    height: .9vh;
+    border: .4vh solid;
+    border-radius: 1vh;
+    overflow: hidden;
+}
+.habiCards .habiBar .fuller{
+    height: 100%;
+}
+
+.habiCardContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
