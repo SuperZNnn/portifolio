@@ -46,6 +46,7 @@
 
 .projectCards .line2 img{
     width: 30vh;
+    height: 30vh;
     border: .4vh solid #3c60c0;
     position: relative;
     left: 50%;
